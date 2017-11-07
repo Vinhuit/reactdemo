@@ -24,10 +24,10 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "start": "./node_modules/react-scripts/bin/ start",
-    "build": "./node_modules/react-scripts/bin/ build",
-    "test": "./node_modules/react-scripts/bin/ test --env=jsdom",
-    "eject": "./node_modules/react-scripts/bin/ eject",
+    "start": "./node_modules/react-scripts/bin/react-scripts start",
+    "build": "./node_modules/react-scripts/bin/react-scripts build",
+    "test": "./node_modules/react-scripts/bin/react-scripts test --env=jsdom",
+    "eject": "./node_modules/react-scripts/bin/react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
